@@ -33,7 +33,7 @@ class Solution:
         total = 0
         s = hi_string.lower()
         if 'hi' in hi_string:
-            total += str.count("hi_string")
+            total += str.count(s)
         else:
             return 0
         return total
